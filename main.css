@@ -1,0 +1,250 @@
+/* ------------   GERAL   -----------*/
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.bloco   
+{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------------   Cabeçalho  -----------*/
+header
+{
+    background-color: rgb(0, 72, 228);
+    color: white;
+    padding-left: 20px;
+}
+header h1
+{
+    font-size: 2em;
+    font-family: "Anton SC", sans-serif;
+}
+
+header nav li
+{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Anton SC", sans-serif;
+}
+
+header nav li a
+{
+    font-size: 1.75em;
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------  Main  ----------- */
+#loja .bloco
+{
+    align-items: flex-start;
+    
+}
+#loja .bloco img
+{
+    width: 45%;
+    margin-right: 15px;
+}
+
+#loja  h2
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Anton SC", sans-serif;
+}
+
+/* ------------  Produtos  ----------- */
+#produtos .bloco 
+{
+    display:block; 
+}
+#produtos h2
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Anton SC", sans-serif;
+}
+.bicicleta 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.bicicleta img
+{
+    width: 230px;
+}
+
+h3
+{
+    font-size: 1em;
+    font-family: "Anton SC", sans-serif;
+}
+.bicicleta button
+{
+    font-family: "Anton SC", sans-serif;
+    width: 230px;
+    background-color: rgb(25, 241, 97);
+}
+
+
+/* -------------------------------------------------------------------- */
+/* ---------------------------- CELULAR ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width:375px)
+{
+    .bloco   
+    {
+        width: 90%;
+        display: flex;
+    }
+    .bloco h1   
+    {
+        font-size: 1.75em;
+    }
+    .bloco nav ul li
+    {
+        display: flex;
+    }
+    
+    
+
+    /* ------------   Cabeçalho  -----------*/
+    header
+    {
+        background-color: rgb(0, 72, 228);
+        color: white;
+        
+    }
+    header nav li a
+    {
+        font-size: 1.25em;
+        color: white;
+        text-decoration: none;
+    }
+    /* ------------  Main  ----------- */
+    #loja .bloco
+    {
+        display: block;
+    }
+    #loja .bloco img
+    {
+        width: 100%;
+        
+    }
+    .bicicleta
+    {
+        display: block;
+        
+    }
+    .bicicleta img
+    {
+        width: 100%;
+    }
+    h3
+    {
+        font-size: 1.5em;
+        font-family: "Anton SC", sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .bicicleta button
+    {
+        font-family: "Anton SC", sans-serif;
+        background-color: rgb(25, 241, 97);
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* -------------------------------------------------------------------- */
+/* ----------------------------- TABLET ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (max-width:820px)
+{
+    .bloco   
+    {
+        width: 90%;
+        display: flex;
+    }
+    .bloco h1   
+    {
+        font-size: 1.75em;
+    }
+    
+    
+    
+
+    /* ------------   Cabeçalho  -----------*/
+    header
+    {
+        background-color: rgb(0, 72, 228);
+        color: white;
+        
+    }
+    header nav li a
+    {
+        font-size: 1.25em;
+        color: white;
+        text-decoration: none;
+    }
+    /* ------------  Main  ----------- */
+    #loja .bloco
+    {
+        display: block;
+    }
+    #loja .bloco img
+    {
+        width: 100%;
+    }
+    /* ------------  Produtos  ----------- */
+    #produtos .bloco
+    {
+        display: inline;
+
+    }
+    #produtos .bloco h2
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        font-family: "Anton SC", sans-serif;
+        display: block;
+    }
+    .bicicleta 
+    {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .bicicleta img
+    {
+        width: 275px;
+    }
+    .bicicleta button
+    {
+        font-family: "Anton SC", sans-serif;
+        background-color: rgb(25, 241, 97);
+        display: block;
+        justify-content: center;
+        width: 275px;
+    }
+    
+}    
+
+
+
+
+
